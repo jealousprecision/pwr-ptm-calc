@@ -1,5 +1,4 @@
-#ifndef INPUTSTATE_H
-#define INPUTSTATE_H
+#pragma once
 
 class Button
 {
@@ -12,19 +11,6 @@ protected:
     bool isOn_ = false;
     bool wasPressed_ = false;
 };
-
-/*
-typedef struct
-{
-    Button numberButtons[10];
-    Button plus;
-    Button minus;
-    Button multiply;
-    Button divide;
-    Button equal;
-    Button clear;
-} InputState;
-*/
 
 enum class ButtonCodes
 {
@@ -56,9 +42,3 @@ public:
 protected:
     Button buttons_[16];
 };
-
-void inputState_init(InputState* inputState);
-void inputState_update(InputState* inputState);
-ButtonCodes inputState_getPressedButton(InputState* inputState);
-
-#endif  // INPUSTATE_H
