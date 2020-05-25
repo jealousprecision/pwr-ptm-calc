@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 #include <avr/io.h>
-#include "LCD_HD44780.h"
 
 #define KEYBOARD_PORT PORTB
 #define KEYBOARD_PIN PINB

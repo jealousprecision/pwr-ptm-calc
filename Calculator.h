@@ -1,7 +1,6 @@
 #pragma once
 
 #include "InputState.h"
-#include "LCD_HD44780.h"
 
 class Calculator
 {

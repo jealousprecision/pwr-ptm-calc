@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <avr/io.h>
+#include "LCD_HD44780.h"
 
 namespace
 {
